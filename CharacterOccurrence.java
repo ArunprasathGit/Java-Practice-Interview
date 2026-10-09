@@ -6,7 +6,7 @@ public class CharacterOccurrence {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.print("Enter a string: ");
+        System.out.print("Enter a string ");
         String input = scanner.nextLine();
 
         Map<Character, Integer> occurrences = new LinkedHashMap<>();
